@@ -1,4 +1,4 @@
-# 🌈 PRISM - Image Format Converter
+# PRISM - Image Format Converter
 
 A modern, sleek image format converter built with Python and CustomTkinter. Convert your images between multiple formats with ease and style.
 
@@ -7,17 +7,17 @@ A modern, sleek image format converter built with Python and CustomTkinter. Conv
 
 ## ✨ Features
 
-- 🎨 **Modern Dark UI** - Beautiful, professional interface with a dark theme
-- 🔄 **Multiple Formats** - Support for PNG, JPG, JPEG, WEBP, GIF, BMP, TIFF, ICO, PDF, HEIC
-- 📦 **Batch Processing** - Convert multiple files at once
-- 🎯 **Individual Format Selection** - Set different formats for different files
-- 📊 **Multi-Select** - Select multiple files with Shift+Click for batch operations
-- 💾 **Smart Destination** - Auto-sets destination to source folder, or choose your own
-- 🔧 **Advanced Options** - Preserve metadata, adjust compression
-- ⚡ **Fast & Efficient** - Multi-threaded conversion for better performance
-- 📱 **HEIC Support** - Convert iPhone photos directly
+-  **Modern Dark UI** - Beautiful, professional interface with a dark theme
+-  **Multiple Formats** - Support for PNG, JPG, JPEG, WEBP, GIF, BMP, TIFF, ICO, PDF, HEIC
+-  **Batch Processing** - Convert multiple files at once
+-  **Individual Format Selection** - Set different formats for different files
+-  **Multi-Select** - Select multiple files with Shift+Click for batch operations
+-  **Smart Destination** - Auto-sets destination to source folder, or choose your own
+-  **Advanced Options** - Preserve metadata, adjust compression
+-  **Fast & Efficient** - Multi-threaded conversion for better performance
+-  **HEIC Support** - Convert iPhone photos directly
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📖 Usage
+##  Usage
 
 1. **Add Files** - Click the "+  Add Files" button to select images
 2. **Set Format** - Choose output format from the BATCH FORMAT dropdown
@@ -74,12 +74,12 @@ python main.py
    - Toggle "Max Compression" for smaller file sizes
 6. **Convert** - Click "Convert All  →" to start conversion
 
-## 🎯 Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 - **Shift + Click** - Select a range of files
 - **Click on file** - Select individual file
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```
 Prism/
@@ -94,7 +94,7 @@ Prism/
 └── README.md           # This file
 ```
 
-## 🎨 Supported Formats
+##  Supported Formats
 
 ### Input Formats
 - PNG
@@ -118,46 +118,6 @@ Prism/
 - PDF
 - HEIC
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
-- Image processing by [Pillow](https://python-pillow.org/)
-- HEIC support via [pillow-heif](https://github.com/bigcat88/pillow_heif)
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/prism-converter](https://github.com/yourusername/prism-converter)
-
-## 🐛 Known Issues
-
-If you encounter any issues, please report them on the [Issues](https://github.com/yourusername/prism-converter/issues) page.
-
-## 🔮 Future Features
-
-- [ ] Drag & drop support
-- [ ] Image resize/crop options
-- [ ] Watermark addition
-- [ ] Batch rename functionality
-- [ ] Format presets (e.g., "Web Optimized", "Print Quality")
-- [ ] Dark/Light theme toggle
-- [ ] Multi-language support
-
----
-
-Made with ❤️ using Python
